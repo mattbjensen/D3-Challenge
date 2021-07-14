@@ -3,29 +3,91 @@
   border: 1px solid #e3e3e3;
 }
 
-/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
 html {
   position: relative;
   min-height: 100%;
 }
 
+.jumbotron {
+  background-color: #f0131e;
+}
+
+.newspaperHeading {
+  font-family: 'Rockwell', serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 80px;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 72px;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: black 0.03em 0.03em 0.03em;
+}
+
+.logo {
+  height: 175px;
+}
+
+.col-md-9 {
+  max-width: 960px; 
+  background-color: #f9f7f1; 
+  border: thin solid black;
+}
+
+.articleHeading {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+}
+
+.byline {
+  font-weight: 700;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+}
+
+.byline:before {
+  border-top: 1px solid black;
+  content: '';
+  width: 100px;
+  height: 7px;
+  display: block;
+  margin: 0 auto;
+}
+
+.byline:after {
+  border-bottom: 1px solid black;
+  content: '';
+  width: 100px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
 body {
-  /* Padding bottom by footer height */
+  font-family: 'Droid Serif', serif;
+  color: black;
+  font-size: 14px;
   padding-bottom: 80px;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
-  width: 100%; /* Set the fixed height of the footer here */
+  width: 100%;
   height: 10px;
   padding-top: 20px;
   padding-bottom: 40px;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #f0131e;
 }
 
 #footer p {
   margin: 0;
+  font-family: 'Rockwell', serif;
   font-size: 16px;
+  color: white;
 }
